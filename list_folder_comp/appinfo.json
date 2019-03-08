@@ -1,0 +1,34 @@
+{
+	"id": "sample-component-folder",
+	"settingsData": {
+		"settingsWidth": 300,
+		"settingsHeight": 90,
+		"settingsRenderOption": "inline",
+		"triggers": [{
+			"triggerName": "folderClicked",
+			"triggerDescription": "Folder Clicked",
+			"triggerPayload": [{
+			  "name": "currentFolderId",
+			  "displayName": "current Folder Id"
+		   }]
+		}]
+	},
+
+	
+
+
+
+	"initialData": {
+		"componentId": "folderlist-holuser1-id-1",
+		"componentLayout": "default",
+		"marginBottom": 0,
+    "marginLeft": 0,
+    "marginRight": 0,
+    "marginTop": 0,
+		"customSettingsData": {
+			"rootFolderid":"FB76B8433A6309A65DE14393395915D0AFE6032AA8A8"
+		},
+		"nestedComponents": [
+		]
+	}
+}

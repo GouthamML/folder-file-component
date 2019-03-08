@@ -1,0 +1,38 @@
+{
+	"id": "sample-component",
+	"settingsData": {
+		"settingsWidth": 300,
+		"settingsHeight": 90,
+		"settingsRenderOption": "inline",
+		"actions": [{
+			"actionName": "updateParentFolder",
+			"actionDescription": "update Parent Folder",
+			"actionPayload": [{
+				"name": "parentFolderId",
+				"description": "parent Folder Id",
+				"type": {
+					"ojComponent": {
+						"component": "ojInputText"
+					}
+				},
+				"value": ""
+			}]
+		}]
+	},
+
+	
+
+
+	"initialData": {
+		"componentId": "folderlist-holuser1-id",
+		"componentLayout": "default",
+		"marginBottom": 0,
+		"marginLeft": 0,
+		"marginRight": 0,
+		"marginTop": 0,
+		"customSettingsData": {
+			"folderid": "FB76B8433A6309A65DE14393395915D0AFE6032AA8A8"
+		},
+		"nestedComponents": []
+	}
+}

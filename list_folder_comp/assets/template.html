@@ -1,0 +1,20 @@
+<table>
+    <thead>
+      <tr>
+        <!-- <th>Download</th> -->
+        <th>Filename</th>
+        
+      </tr>
+    </thead>
+    <tbody data-bind="foreach: items">
+      <tr>
+          <!-- <td><a data-bind="attr:{'href':'https://cecs-auto-orasenatdctocloudcorp01.cec.ocp.oraclecloud.com/documents/file/' + id,'target':'_blank'}">Download</a></td> -->
+          <td data-bind="text: name"></td>
+          <td data-bind="click: $parent.folderClicked.bind($data, id)"><button>select</button></td>
+          
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <!-- <p data-bind="click: folderClicked('hey')">Folder trigger</p> -->
+  </div>
