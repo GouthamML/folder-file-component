@@ -1,0 +1,34 @@
+<script type="text/javascript">
+// var userLang = navigator.language || navigator.userLanguage; 
+// var url = document.URL;
+// // alert(url);
+
+</script>
+
+
+<form id="form1">
+  <label for="basicSelect">Single Select  </label>
+  <select id="basicSelect" data-bind="ojComponent: {component: 'ojSelect', options: languages,
+  optionsText: 'label',
+  value: curLanguage,
+  optionsCaption: 'Choose...',
+  optionChange: foobar,
+  optionsValue:'value'}">
+   
+  </select>
+  <!-- <select data-bind="options: languages,
+                       optionsText: 'label',
+                       value: curLanguage,
+                       optionsValue:'value'" on-value-changed="[[foobar]]"></select> -->
+  <span id="curr" data-bind="click: langApi"> converting</span>
+  <div>
+    <br/>
+    <label for="curr-value">Current selected value is  </label>
+    <span id="curr-value" data-bind="click:langApi"></span>
+  </div>
+</form>
+
+<!-- <select data-bind="foreach: languages">
+  <option data-bind="event: { onchange: $parent.convert('value')">hey event</option>
+</select>
+<p data-bind="click: convert('pTag')">P tag</p> -->
